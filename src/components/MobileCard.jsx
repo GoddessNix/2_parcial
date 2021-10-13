@@ -49,21 +49,6 @@ const noHoverButtonWhite = (e) => {
   e.target.style.backgroundColor= 'white';
 }
 
-const hoverClickProfile = (e) => {
-  e.target.style.textDecoration = 'underline';
-  e.target.style.cursor = "pointer";
-
-
-  // e.target.style.visibility = "visible";
-}
-const noHoverClickProfile = (e) => {
-  e.target.style.textDecoration = 'none';
-  e.target.style.cursor = "default";
-
-
-  // e.target.style.visibility = "hidden";
-}
-
 const PinCard = (props) => {
   return (
     
@@ -120,7 +105,6 @@ const PinCard = (props) => {
         > Lorem ipsum</span>
         <div
           style={{ ..._stylesPinCard.userProfile }}
-          onMouseEnter={hoverClickProfile} onMouseLeave={noHoverClickProfile}
         >
           <img src="https://picsum.photos/200" alt="userimg" style={{ ..._stylesPinCard.user }} />
           <span
@@ -206,7 +190,7 @@ const _stylesPinCard = {
     zIndex: '2',
     alignSelf: 'flex-end',
     opacity: '80%',
-    margin: '0px',
+    margin: '6px',
 
   },
   share: {
@@ -268,9 +252,6 @@ const _stylesPinCard = {
     display:'flex',
     flexDirection:'row',
     alignItems:'center',
-    backgroundColor:'white',
-    borderRadius:50,
-    width:80,
   },
   user: {
     minWidth: '40px',
