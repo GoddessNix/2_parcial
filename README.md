@@ -5,8 +5,8 @@ Mobile:En movile tiene dos div, uno para el header y otro para el footer, y ya d
 Pinterest Layout: es el componente en el que se aplica el grid para acomodar los pincard, e ingresa las imagenes
 Pincard: El pincard tiene un contenedor principal que contiene todo, despues tiene otro contenedor adentro del tamaño de la imagen lo que nos ayuda adentro a acomodar los botones de los cuales el superior no tiene div, pero los dos inferiores si tienen un div que los contiene. Saliendo del hover, tenemos un contenedor en el que se acomoda la descripcion de la imagen, la imagen del usuario y su nombre
 
-<img src="./justificacion/1.png" alt="justificacion_1">
-<img src="./justificacion/2.png" alt="justificacion_1">
+<img src="./src/justificacion/1.png"alt="justificacion_1">
+<img src="./src/justificacion/2.png" alt="justificacion_2">
 
 # Archivo extra
 se hizo un archivo useWindowSize.js que su fucion es capturar el tamaño de la ventana para poder activar el responsive de mobile
