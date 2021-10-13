@@ -1,7 +1,6 @@
 import React from 'react';
 import useWindowSize from '../useWindowSize';
 import PinCard from './PinCard';
-import MobileCard from './MobileCard';
 
 const PinterestLayout = () => {
 
