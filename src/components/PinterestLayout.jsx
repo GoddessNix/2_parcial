@@ -12,24 +12,24 @@ const PinterestLayout = () => {
     <div
     style={widthres.width<400?{..._stylesLayout.pin_containerMobile}:{..._stylesLayout.pin_container}}
     >
-        <PinCard size='small' image='https://picsum.photos//250/293' />
-        <PinCard size='medium' image='https://picsum.photos//250/350' />
-        <PinCard size='large' image='https://picsum.photos//250/410' />
-        <PinCard size='small' image='https://picsum.photos//250/290' />
-        <PinCard size='medium' image='https://picsum.photos//250/355' />
-        <PinCard size='large' image='https://picsum.photos//250/400' />
-        <PinCard size='small' image='https://picsum.photos//250/293' />
-        <PinCard size='medium' image='https://picsum.photos//250/350' />
-        <PinCard size='large' image='https://picsum.photos//250/410' />
-        <PinCard size='small' image='https://picsum.photos//250/290' />
-        <PinCard size='medium' image='https://picsum.photos//250/355' />
-        <PinCard size='large' image='https://picsum.photos//250/400' />
-        <PinCard size='small' image='https://picsum.photos//250/293' />
-        <PinCard size='medium' image='https://picsum.photos//250/350' />
-        <PinCard size='large' image='https://picsum.photos//250/410' />
-        <PinCard size='small' image='https://picsum.photos//250/290' />
-        <PinCard size='medium' image='https://picsum.photos//250/355' />
-        <PinCard size='large' image='https://picsum.photos//250/400' />
+        <PinCard size='small' image='https://picsum.photos//250/300' />
+        <PinCard size='medium' image='https://picsum.photos//250/380' />
+        <PinCard size='large' image='https://picsum.photos//250/500' />
+        <PinCard size='small' image='https://picsum.photos//250/300' />
+        <PinCard size='medium' image='https://picsum.photos//250/380' />
+        <PinCard size='large' image='https://picsum.photos//250/500' />
+        <PinCard size='small' image='https://picsum.photos//250/300' />
+        <PinCard size='medium' image='https://picsum.photos//250/380' />
+        <PinCard size='large' image='https://picsum.photos//250/500' />
+        <PinCard size='small' image='https://picsum.photos//250/300' />
+        <PinCard size='medium' image='https://picsum.photos//250/380' />
+        <PinCard size='large' image='https://picsum.photos//250/500' />
+        <PinCard size='small' image='https://picsum.photos//250/300' />
+        <PinCard size='medium' image='https://picsum.photos//250/380' />
+        <PinCard size='large' image='https://picsum.photos//250/500' />
+        <PinCard size='small' image='https://picsum.photos//250/300' />
+        <PinCard size='medium' image='https://picsum.photos//250/380' />
+        <PinCard size='large' image='https://picsum.photos//250/500' />
     </div>
   );
 };

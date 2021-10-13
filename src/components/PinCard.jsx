@@ -109,7 +109,7 @@ const PinCard = (props) => {
       >User</p>
       </div> */}
       <img
-        src={props.image} alt="NO CARGAAAAAA" style={{ ..._stylesPinCard.image }} />
+        src={props.image} alt="NO CARGAAAAAA" style={{ ..._stylesPinCard.image, ..._stylesPinCard[props.size] }} />
 
       {/* INICIO DESCRIPCION */}
       <div
@@ -154,22 +154,25 @@ const _stylesPinCard = {
     // maxWidth:'50%',
   },
   small: {
-    gridRowEnd: 'span 31',
+    gridRowEnd: 'span 40',
   },
   medium: {
-    gridRowEnd: 'span 38',
+    gridRowEnd: 'span 48',
   },
   large: {
-    gridRowEnd: 'span 50',
+    gridRowEnd: 'span 60',
   },
   image: {
     width: '100%',
-    height: '100%',
+    height: 'auto',
+    objectFit:'fill',
     borderRadius: '16px',
-    // position:'absolute',
+    position:'relative',
     zIndex: '1',
-    gridColumn:'1/2',
-    gridRow:'1/2',
+    gridColumn:'1',
+    gridRow:'1',
+    alignSelf:'stretch',
+
   },
   contenedor: {
     flexDirection: 'column',
@@ -191,8 +194,8 @@ const _stylesPinCard = {
     backgroundColor: 'rgba(0, 0, 0, 0)',
     display:'flex',
     zIndex: '3',
-    gridColumn:'1/2',
-    gridRow:'1/2',
+    gridColumn:'1',
+    gridRow:'1',
     // opacity:'90%',
   },
   sharemore: {
@@ -259,6 +262,8 @@ const _stylesPinCard = {
   description:{
     display:'flex',
     flexDirection:'column',
+    // gridColumn:'1/2',
+    // gridRow:'1/2',
     // alignSelf: 'flex-end',
 
     // alignItems:'center',
